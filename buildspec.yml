@@ -14,3 +14,4 @@ phases:
       - printf '[{"name":<TASK_DEFINITION_NAME>,"imageUri":"%s"}]' <ECR_URL> > imagedefinitions.json
 artifacts:
   files: imagedefinitions.json
+
